@@ -1,1 +1,1 @@
-# GUIInstallerForUbuntu
+# GUI Installer For Ubuntu
