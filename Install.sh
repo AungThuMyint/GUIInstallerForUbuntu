@@ -10,7 +10,7 @@ sudo apt-get update -y
 sudo apt-get install lxde -y
 sudo apt-get install xrdp -y
 service xrdp start
-sudo apt install xrdp xfce4 xfce4-goodies tightvncserver
+sudo apt install xrdp xfce4 xfce4-goodies tightvncserver -y
 sudo service xrdp restart
 echo xfce4-session> /home/$username/.xsession
 sudo cp /home/$username/.xsession /etc/skel
